@@ -10,7 +10,19 @@ export interface Game {
   type: string;
 }
 
-const GameGrid = () => {
+interface Props {
+  games: Game[];
+  selectedType: string;
+}
+
+const GameGrid = ({ games, selectedType }: Props) => {
+  const getPersonsWithSameAge = (arr: Game[], type: string): Game[] => {
+    if (type === "") return arr;
+    return arr.filter((person) => person.type === type);
+  };
+
+  const newArray = getPersonsWithSameAge(games, selectedType);
+
   return (
     <>
       <SimpleGrid
@@ -18,7 +30,7 @@ const GameGrid = () => {
         spacing={10}
         padding={10}
       >
-        {data.map((game) => (
+        {newArray.map((game) => (
           <GameCards key={game.id} game={game} />
         ))}
       </SimpleGrid>

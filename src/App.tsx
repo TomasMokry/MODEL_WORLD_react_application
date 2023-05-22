@@ -1,12 +1,18 @@
 import { Grid, GridItem, Show } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
-import UsersDetails from "./components/GameGrid";
+
 import GameGrid from "./components/GameGrid";
 import TypeList from "./components/TypeList";
 import TypesSelector from "./components/TypesSelector";
 import GameHeading from "./components/GameHeading";
+import { useState } from "react";
+import data from "./components/gameData.json";
+import ClearButton from "./components/ClearButton";
 
 function App() {
+  const [products, setProducts] = useState(data);
+  const [selectedType, setSelectedType] = useState("");
+
   return (
     <Grid
       templateAreas={{
@@ -24,8 +30,12 @@ function App() {
       </Show>
       <GridItem area="main">
         <GameHeading />
-        <TypesSelector />
-        <GameGrid />
+        <ClearButton onClear={() => setSelectedType("")} />
+        <TypesSelector
+          onSelectType={(type) => setSelectedType(type)}
+          games={products}
+        />
+        <GameGrid selectedType={selectedType} games={products} />
       </GridItem>
     </Grid>
   );

@@ -34,28 +34,28 @@
     "name" : "Model5",
     "image" : "src/assets/06.jpeg",
     "description": "3D model of chair " ,
-    "type":"tea table"  
+    "type":"chairs"  
 },
 {
     "id":6,
     "name" : "Model6",
     "image" : "src/assets/07.jpeg",
     "description": "3D model of chair "   ,
-    "type":"vase"
+    "type":"chairs"
 },
 {
     "id":7,
     "name" : "Model7",
     "image" : "src/assets/08.jpeg",
     "description": "3D model of chair "  ,
-    "type":"decorations" 
+    "type":"chairs" 
 },
 {
     "id":8,
     "name" : "Model8",
     "image" : "src/assets/08.jpeg",
     "description": "3D model of chair "  ,
-    "type":"beds" 
+    "type":"chairs" 
 }
 
 ]
