@@ -1,9 +1,15 @@
 import { Heading } from "@chakra-ui/react";
 
-const ProductHeading = () => {
+interface Props {
+  productType: string;
+}
+
+const ProductHeading = ({ productType }: Props) => {
+  let fullHeading = "3D MODELS " + productType;
+
   return (
     <Heading marginY="5px" as="h1">
-      3D MODELS
+      {fullHeading}
     </Heading>
   );
 };

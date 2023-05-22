@@ -22,7 +22,7 @@ function App() {
       </GridItem>
 
       <GridItem paddingX={5} paddingY={5} area="main">
-        <ProductHeading />
+        <ProductHeading productType={selectedType} />
         <ShowAllButton onClear={() => setSelectedType("")} />
         <TypesSelector
           onSelectType={(type) => setSelectedType(type)}
