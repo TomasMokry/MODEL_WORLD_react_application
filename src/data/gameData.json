@@ -2,7 +2,7 @@
     {
     "id":1,
     "name" : "Armchair",
-    "image" : "../../public/01.jpeg",
+    "image" : "./01.jpeg",
     "description": "3D model of armchair "  ,
     "type":"arm chairs"
 
