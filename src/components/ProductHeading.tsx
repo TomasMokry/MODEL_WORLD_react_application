@@ -1,7 +1,6 @@
 import { Heading } from "@chakra-ui/react";
-import React from "react";
 
-const GameHeading = () => {
+const ProductHeading = () => {
   return (
     <Heading marginY="5px" as="h1">
       3D MODELS
@@ -9,4 +8,4 @@ const GameHeading = () => {
   );
 };
 
-export default GameHeading;
+export default ProductHeading;

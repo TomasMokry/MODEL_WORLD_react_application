@@ -1,18 +1,17 @@
 import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
-import React from "react";
-import data from "./gameData.json";
+
 import { BsChevronDown } from "react-icons/bs";
-import { Game } from "./GameGrid";
+import { Product } from "./ProductGrid";
 
 interface Props {
-  games: Game[];
+  products: Product[];
   onSelectType: (type: string) => void;
 }
 
-const TypesSelector = ({ games, onSelectType }: Props) => {
-  const removeDuplicateAges = (arr: Game[]): Game[] => {
+const TypesSelector = ({ products, onSelectType }: Props) => {
+  const removeDuplicateAges = (arr: Product[]): Product[] => {
     const uniqueAges: string[] = [];
-    return arr.reduce((result: Game[], person: Game) => {
+    return arr.reduce((result: Product[], person: Product) => {
       if (!uniqueAges.includes(person.type)) {
         uniqueAges.push(person.type);
         result.push(person);
@@ -21,7 +20,7 @@ const TypesSelector = ({ games, onSelectType }: Props) => {
     }, []);
   };
 
-  const newArray = removeDuplicateAges(games);
+  const newArray = removeDuplicateAges(products);
 
   return (
     <Menu>
