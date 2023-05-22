@@ -2,7 +2,7 @@
     {
     "id":1,
     "name" : "Armchair",
-    "image" : "../assets/01.jpeg",
+    "image" : "src/assets/01.jpeg",
     "description": "3D model of armchair "  ,
     "type":"arm chairs"
 
@@ -10,7 +10,7 @@
 {
     "id":2,
     "name" : "Armchair",
-    "image" : "../assets/02.jpeg" ,
+    "image" : "src/assets/02.jpeg" ,
     "description": "3D model of armchair "  ,
     "type":"arm chairs"
     
@@ -18,126 +18,126 @@
 {
     "id":3,
     "name" : "Cutting board",
-    "image" : "../assets/03.jpeg" ,
+    "image" : "src/assets/03.jpeg" ,
     "description": "3D model of cutting board "  ,
     "type":"table set"
 },
 {
     "id":4,
     "name" : "Table set",
-    "image" : "../assets/04.jpeg",
+    "image" : "src/assets/04.jpeg",
     "description": "3D model of table set "  ,
     "type":"table set" 
 },
 {
     "id":5,
     "name" : "Accessories",
-    "image" : "../assets/05.jpeg",
+    "image" : "src/assets/05.jpeg",
     "description": "3D model of accessories " ,
     "type":"table set"  
 },
 {
     "id":6,
     "name" : "Tea set",
-    "image" : "../assets/06.jpeg",
+    "image" : "src/assets/06.jpeg",
     "description": "3D model of tea set "   ,
     "type":"table set"
 },
 {
     "id":7,
     "name" : "Table",
-    "image" : "../assets/07.jpeg",
+    "image" : "src/assets/07.jpeg",
     "description": "3D model of table "  ,
     "type":"tables" 
 },
 {
     "id":8,
     "name" : "Chair",
-    "image" : "../assets/08.jpeg",
+    "image" : "src/assets/08.jpeg",
     "description": "3D model of chair "  ,
     "type":"chairs" 
 },
 {
     "id":9,
     "name" : "Chair",
-    "image" : "../assets/09.jpeg",
+    "image" : "src/assets/09.jpeg",
     "description": "3D model of chair "  ,
     "type":"chairs" 
 },
 {
     "id":10,
     "name" : "Chair",
-    "image" : "../assets/10.jpeg",
+    "image" : "src/assets/10.jpeg",
     "description": "3D model of chair "  ,
     "type":"chairs" 
 },
 {
     "id":11,
     "name" : "Bed",
-    "image" : "../assets/11.jpeg",
+    "image" : "src/assets/11.jpeg",
     "description": "3D model of bed "  ,
     "type":"beds" 
 },
 {
     "id":12,
     "name" : "Table",
-    "image" : "../assets/12.jpeg",
+    "image" : "src/assets/12.jpeg",
     "description": "3D model of table "  ,
     "type":"tables" 
 },
 {
     "id":13,
     "name" : "Table",
-    "image" : "../assets/13.jpeg",
+    "image" : "src/assets/13.jpeg",
     "description": "3D model of table "  ,
     "type":"tables" 
 },
 {
     "id":14,
     "name" : "Table",
-    "image" : "../assets/14.jpeg",
+    "image" : "src/assets/14.jpeg",
     "description": "3D model of table "  ,
     "type":"tables" 
 },
 {
     "id":15,
     "name" : "Table",
-    "image" : "../assets/15.jpeg",
+    "image" : "src/assets/15.jpeg",
     "description": "3D model of table "  ,
     "type":"tables" 
 },
 {
     "id":16,
     "name" : "Vase",
-    "image" : "../assets/16.jpeg",
+    "image" : "src/assets/16.jpeg",
     "description": "3D model of vase "  ,
     "type":"vases" 
 },
 {
     "id":17,
     "name" : "Vase",
-    "image" : "../assets/17.jpeg",
+    "image" : "src/assets/17.jpeg",
     "description": "3D model of vase "  ,
     "type":"vases" 
 },
 {
     "id":18,
     "name" : "Vase",
-    "image" : "../assets/18.jpeg",
+    "image" : "src/assets/18.jpeg",
     "description": "3D model of vase "  ,
     "type":"vases" 
 },
 {
     "id":19,
     "name" : "Arm chair",
-    "image" : "../assets/19.jpeg",
+    "image" : "src/assets/19.jpeg",
     "description": "3D model of chair "  ,
     "type":"arm chairs" 
 },
 {
     "id":20,
     "name" : "Chair",
-    "image" : "../assets/20.jpeg",
+    "image" : "src/assets/20.jpeg",
     "description": "3D model of chair "  ,
     "type":"chairs" 
 }
